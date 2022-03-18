@@ -1,16 +1,16 @@
 {
-    "name": "joy/voyager-bread-replace-keyword",
-    "description": "This Laravel/Voyager module adds VoyagerBreadReplaceKeyword support to Voyager.",
+    "name": "joy/voyager-bread-activity",
+    "description": "This Laravel/Voyager module adds VoyagerBreadActivity support to Voyager.",
     "keywords": [
         "joy",
-        "bread-replace-keyword",
-        "voyager-bread-replace-keyword",
-        "joy-voyager-bread-replace-keyword",
+        "bread-activity",
+        "voyager-bread-activity",
+        "joy-voyager-bread-activity",
         "cms",
         "voyager",
         "laravel"
     ],
-    "homepage": "https://github.com/rxcod9/joy-voyager-bread-replace-keyword",
+    "homepage": "https://github.com/rxcod9/joy-voyager-bread-activity",
     "license": "MIT",
     "authors": [{
         "name": "Ramakant Gangwar",
@@ -35,9 +35,9 @@
     },
     "autoload": {
         "psr-4": {
-            "Joy\\VoyagerBreadReplaceKeyword\\": "src",
-            "Joy\\VoyagerBreadReplaceKeyword\\Database\\Factories\\": "database/factories/",
-            "Joy\\VoyagerBreadReplaceKeyword\\Database\\Seeders\\": "database/seeders/"
+            "Joy\\VoyagerBreadActivity\\": "src",
+            "Joy\\VoyagerBreadActivity\\Database\\Factories\\": "database/factories/",
+            "Joy\\VoyagerBreadActivity\\Database\\Seeders\\": "database/seeders/"
         },
         "files": [
             "src/helper.php"
@@ -49,13 +49,13 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Joy\\VoyagerBreadReplaceKeyword\\Tests\\": "tests"
+            "Joy\\VoyagerBreadActivity\\Tests\\": "tests"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Joy\\VoyagerBreadReplaceKeyword\\VoyagerBreadReplaceKeywordServiceProvider"
+                "Joy\\VoyagerBreadActivity\\VoyagerBreadActivityServiceProvider"
             ]
         }
     },
