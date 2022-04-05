@@ -18,7 +18,7 @@ class DataTypesTableSeeder extends Seeder
                 'name'                  => 'activities',
                 'display_name_singular' => __('joy-voyager-bread-activity::seeders.data_types.activity.singular'),
                 'display_name_plural'   => __('joy-voyager-bread-activity::seeders.data_types.activity.plural'),
-                'icon'                  => 'voyager-bread',
+                'icon'                  => 'voyager-bread voyager-bread-activity voyager-activity',
                 'model_name'            => 'Joy\\VoyagerBreadActivity\\Models\\Activity',
                 // 'policy_name'           => 'Joy\\VoyagerBreadActivity\\Policies\\ActivityPolicy',
                 // 'controller'            => 'Joy\\VoyagerBreadActivity\\Http\\Controllers\\VoyagerBreadActivityController',
