@@ -18,7 +18,7 @@ class ActivitiesTableSeeder extends Seeder
             return false;
         }
 
-        $count = 100;
+        $count = 20;
         Activity::factory()
             ->count($count)
             ->state(function (array $attributes) use ($count) {
